@@ -1,0 +1,61 @@
+about:
+  description: An interactive cheatsheet tool for the command-line
+  license: Apache-2.0
+  homepage: 
+  head: f7330b9
+  archived: false
+  latestVersion: v2.25.0-beta1
+  collectedAt: 2026-09-03T05:13:01Z
+timeline:
+  created: 2019-09-20
+  lastCommit: 2026-07-28
+  lastRelease: 2025-04-09
+popularity:
+  star: 17502
+  watcher: 114
+  fork: 560
+  release: 69
+  contributor: 98
+  pullRequest: 86
+  issue: 431
+language:
+  Rust: 115100
+  Shell: 35735
+  PowerShell: 1895
+  Nushell: 1008
+  Elvish: 704
+  Makefile: 181
+totalLine: 154623
+recent:
+  last30d:
+    since: 2026-08-04
+    release: 0
+    mergedPR: 0
+    openPR: 3
+    closedIssue: 0
+    openIssue: 3
+    commit: 0
+  last90d:
+    since: 2026-06-05
+    release: 0
+    mergedPR: 2
+    openPR: 3
+    closedIssue: 0
+    openIssue: 6
+    commit: 3
+  last180d:
+    since: 2026-03-07
+    release: 0
+    mergedPR: 12
+    openPR: 5
+    closedIssue: 4
+    openIssue: 7
+    commit: 39
+  last360d:
+    since: 2025-09-08
+    release: 0
+    mergedPR: 16
+    openPR: 6
+    closedIssue: 10
+    openIssue: 16
+    commit: 42
