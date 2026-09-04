@@ -7,7 +7,7 @@ about:
   head: f7330b9
   archived: false
   latestVersion: v2.25.0-beta1
-  collectedAt: 2026-09-04T20:05:40Z
+  collectedAt: 2026-09-04T20:36:16Z
 timeline:
   created: 2019-09-20
   lastCommit: 2026-07-28
@@ -86,7 +86,7 @@ total:
   commit: 1092
 ---
 path: /home/runner/.x-repo/github.com/denisidoro/navi
-collectedAt: 2026-09-04T20:05:40Z
+collectedAt: 2026-09-04T20:36:16Z
 loc:
   Rust:
     code: 3289
