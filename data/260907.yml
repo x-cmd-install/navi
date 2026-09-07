@@ -5,13 +5,13 @@ about:
   head: f7330b9
   archived: false
   latestVersion: "v2.25.0-beta1"
-  collectedAt: 2026-09-07T06:15:37Z
+  collectedAt: 2026-09-07T18:19:02Z
 timeline:
   created: 2019-09-20
   lastCommit: 2026-07-28
   lastRelease: 2025-04-09
 popularity:
-  star: 17517
+  star: 17524
   watcher: 115
   fork: 562
   release: 69
@@ -84,7 +84,7 @@ total:
   commit: 1092
 ---
 path: /home/runner/.x-repo/github.com/denisidoro/navi
-collectedAt: 2026-09-07T06:15:37Z
+collectedAt: 2026-09-07T18:19:03Z
 loc:
   Rust:
     code: 3289
@@ -256,7 +256,7 @@ checks:
       - 'Warn: 0 commits out of 29 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T06:15:38+00:00
+  collectedAt: 2026-09-07T18:19:03+00:00
   platform:
     darwin/arm64:
       name:  null
