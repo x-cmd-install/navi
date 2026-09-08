@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 2029860,
       "digest": null,
-      "download_count": 4074,
+      "download_count": 4075,
       "created_at": "2025-01-29T23:21:38Z",
       "updated_at": "2025-01-29T23:21:38Z",
       "browser_download_url": "https://github.com/denisidoro/navi/releases/download/v2.24.0/navi-v2.24.0-x86_64-pc-windows-gnu.zip"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 1418230,
       "digest": null,
-      "download_count": 24584,
+      "download_count": 24592,
       "created_at": "2025-01-29T23:21:10Z",
       "updated_at": "2025-01-29T23:21:10Z",
       "browser_download_url": "https://github.com/denisidoro/navi/releases/download/v2.24.0/navi-v2.24.0-x86_64-unknown-linux-musl.tar.gz"
