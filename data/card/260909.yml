@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.25.0-beta1"
   latestRelease: "v2.24.0"
   latestPrerelease: "v2.25.0-beta1"
-  collectedAt: 2026-09-09T06:26:03Z
+  collectedAt: 2026-09-09T20:48:31Z
 timeline:
   created: 2019-09-20
   lastCommit: 2026-07-28
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-01-29
   lastPrerelease: 2025-04-09
 popularity:
-  star: 17527
+  star: 17528
   watcher: 115
   fork: 562
   release: 69
@@ -88,7 +88,7 @@ total:
   commit: 1092
 ---
 path: /home/runner/.x-repo/github.com/denisidoro/navi
-collectedAt: 2026-09-09T06:26:05Z
+collectedAt: 2026-09-09T20:48:31Z
 loc:
   Rust:
     code: 3289
