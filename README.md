@@ -14,15 +14,15 @@ x install navi
 
 ## Code insight
 
-Total: **4,345** lines of code across **69** files in the top 5 languages.
+Total: **4,458** lines of code across **69** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Rust | 3,289 | 82 | 541 | 52 |
-| Bash | 821 | 162 | 220 | 11 |
+| Bash | 927 | 189 | 245 | 11 |
 | Toml | 52 | 0 | 6 | 3 |
+| Fish | 46 | 25 | 8 | 2 |
 | PowerShell | 41 | 3 | 12 | 1 |
-| Fish | 39 | 17 | 7 | 2 |
 
 ## OpenSSF Scorecard
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.25.0-beta1` (2025-01-29)
-- **Last commit**: 2026-07-28
+- **Last commit**: 2026-09-15
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 17,543 · **Forks**: 562 · **Open issues**: 431 · **Contributors**: 98
+- **Stars**: 17,547 · **Forks**: 562 · **Open issues**: 431 · **Contributors**: 99
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 521 · **Open PRs**: 7 · **Closed issues**: 326 · **Open issues**: 105 · **Commits**: 1092
+- **Releases**: 69 · **Merged PRs**: 522 · **Open PRs**: 6 · **Closed issues**: 326 · **Open issues**: 105 · **Commits**: 1094
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 0 | 0 | 2 | 0 | 2 | 0 |
-| last60d | 2026-07-16 | 0 | 1 | 4 | 0 | 5 | 1 |
-| 90d | 2026-06-16 | 0 | 2 | 4 | 0 | 5 | 3 |
-| last180d | 2026-03-18 | 0 | 11 | 5 | 3 | 6 | 37 |
-| 360d | 2025-09-19 | 0 | 16 | 7 | 9 | 16 | 42 |
-| last720d | 2024-09-24 | 2 | 51 | 7 | 29 | 32 | 241 |
+| 30d | 2026-08-16 | 0 | 0 | 2 | 0 | 2 | 0 |
+| last60d | 2026-07-17 | 0 | 2 | 3 | 0 | 5 | 2 |
+| 90d | 2026-06-17 | 0 | 3 | 3 | 0 | 5 | 4 |
+| last180d | 2026-03-19 | 0 | 12 | 4 | 3 | 6 | 38 |
+| 360d | 2025-09-20 | 0 | 17 | 6 | 9 | 16 | 43 |
+| last720d | 2024-09-25 | 2 | 52 | 6 | 29 | 32 | 243 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for navi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T06:47:26Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T06:48:41Z._
