@@ -26,7 +26,7 @@ Total: **4,458** lines of code across **69** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.2 / 10**
+Overall score: **4.3 / 10**
 
 Lowest-scoring checks:
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.25.0-beta1` (2025-01-29)
-- **Last commit**: 2026-09-15
+- **Last commit**: 2026-09-20
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 17,573 · **Forks**: 564 · **Open issues**: 431 · **Contributors**: 99
+- **Stars**: 17,596 · **Forks**: 564 · **Open issues**: 431 · **Contributors**: 100
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 522 · **Open PRs**: 6 · **Closed issues**: 326 · **Open issues**: 105 · **Commits**: 1094
+- **Releases**: 69 · **Merged PRs**: 523 · **Open PRs**: 5 · **Closed issues**: 326 · **Open issues**: 105 · **Commits**: 1096
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 0 | 2 | 0 | 1 | 0 |
-| last60d | 2026-07-22 | 0 | 1 | 3 | 1 | 4 | 1 |
-| 90d | 2026-06-22 | 0 | 3 | 3 | 1 | 4 | 4 |
-| last180d | 2026-03-24 | 0 | 10 | 4 | 2 | 5 | 35 |
-| 360d | 2025-09-25 | 0 | 17 | 6 | 8 | 16 | 43 |
-| last720d | 2024-09-30 | 2 | 51 | 6 | 29 | 32 | 240 |
+| 30d | 2026-08-22 | 0 | 1 | 1 | 0 | 0 | 1 |
+| last60d | 2026-07-23 | 0 | 2 | 2 | 1 | 4 | 2 |
+| 90d | 2026-06-23 | 0 | 4 | 2 | 1 | 4 | 5 |
+| last180d | 2026-03-25 | 0 | 11 | 3 | 2 | 5 | 36 |
+| 360d | 2025-09-26 | 0 | 18 | 5 | 8 | 16 | 44 |
+| last720d | 2024-10-01 | 2 | 52 | 5 | 28 | 32 | 242 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for navi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T06:34:57Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T06:43:09Z._
