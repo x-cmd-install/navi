@@ -4,7 +4,7 @@
 
 An interactive cheatsheet tool for the command-line
 
-[![x-cmd/install — navi Code Quality Monitoring Repo Card](https://repo.x-cmd.io/navi.svg?lang=zh)](https://x-cmd.com/install/navi)
+[![x-cmd/install — navi Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/navi.svg?lang=zh)](https://x-cmd.com/install/navi)
 
 ## 安装
 
@@ -47,22 +47,22 @@ x install navi
 
 ## 流行度
 
-- **Star**: 17,606 · **Fork**: 564 · **开放 issue**: 431 · **贡献者**: 100
+- **Star**: 17,612 · **Fork**: 564 · **开放 issue**: 431 · **贡献者**: 100
 
 ## 累计统计
 
-- **发布数**: 69 · **已合并 PR**: 523 · **开放 PR**: 5 · **已关闭 issue**: 326 · **开放 issue**: 105 · **提交数**: 1096
+- **发布数**: 69 · **已合并 PR**: 523 · **开放 PR**: 6 · **已关闭 issue**: 326 · **开放 issue**: 105 · **提交数**: 1096
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 1 | 0 | 0 | 0 | 1 |
-| last60d | 2026-07-24 | 0 | 2 | 2 | 1 | 4 | 2 |
-| 90d | 2026-06-24 | 0 | 4 | 2 | 1 | 4 | 5 |
-| last180d | 2026-03-26 | 0 | 11 | 3 | 2 | 5 | 36 |
-| 360d | 2025-09-27 | 0 | 18 | 5 | 7 | 16 | 44 |
-| last720d | 2024-10-02 | 2 | 52 | 5 | 27 | 32 | 242 |
+| 30d | 2026-08-24 | 0 | 1 | 1 | 0 | 0 | 1 |
+| last60d | 2026-07-25 | 0 | 2 | 3 | 1 | 4 | 2 |
+| 90d | 2026-06-25 | 0 | 4 | 3 | 1 | 4 | 5 |
+| last180d | 2026-03-27 | 0 | 10 | 4 | 1 | 5 | 36 |
+| 360d | 2025-09-28 | 0 | 18 | 6 | 7 | 16 | 44 |
+| last720d | 2024-10-03 | 2 | 52 | 6 | 27 | 32 | 242 |
 
 ## Release 资产
 
@@ -84,4 +84,4 @@ navi 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:44:33Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:46:16Z._
