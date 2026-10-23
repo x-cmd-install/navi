@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,787 · **Forks**: 580 · **Open issues**: 433 · **Contributors**: 100
+- **Stars**: 17,791 · **Forks**: 581 · **Open issues**: 433 · **Contributors**: 100
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 525 · **Open PRs**: 18 · **Closed issues**: 326 · **Open issues**: 107 · **Commits**: 1098
+- **Releases**: 69 · **Merged PRs**: 525 · **Open PRs**: 21 · **Closed issues**: 326 · **Open issues**: 107 · **Commits**: 1098
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 2 | 12 | 0 | 3 | 2 |
-| last60d | 2026-08-23 | 0 | 3 | 13 | 0 | 3 | 3 |
-| 90d | 2026-07-24 | 0 | 4 | 15 | 1 | 7 | 5 |
-| last180d | 2026-04-25 | 0 | 11 | 15 | 1 | 8 | 17 |
-| 360d | 2025-10-27 | 0 | 20 | 18 | 6 | 17 | 46 |
-| last720d | 2024-11-01 | 2 | 53 | 18 | 26 | 34 | 243 |
+| 30d | 2026-09-23 | 0 | 2 | 15 | 0 | 3 | 2 |
+| last60d | 2026-08-24 | 0 | 3 | 16 | 0 | 3 | 3 |
+| 90d | 2026-07-25 | 0 | 4 | 18 | 1 | 7 | 5 |
+| last180d | 2026-04-26 | 0 | 11 | 18 | 1 | 8 | 17 |
+| 360d | 2025-10-28 | 0 | 20 | 21 | 6 | 17 | 46 |
+| last720d | 2024-11-02 | 2 | 53 | 21 | 26 | 34 | 243 |
 
 ## Release assets
 
@@ -75,6 +75,18 @@ Lowest-scoring checks:
 | [navi-v2.24.0-x86_64-pc-windows-gnu.zip](https://github.com/denisidoro/navi/releases/download/v2.24.0/navi-v2.24.0-x86_64-pc-windows-gnu.zip) | 1.9 MiB | `native/win/x64` |
 | [navi-v2.24.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/denisidoro/navi/releases/download/v2.24.0/navi-v2.24.0-x86_64-unknown-linux-musl.tar.gz) | 1.4 MiB | `native/linux/x64/musl` |
 
+## Distribution status
+
+Reported by **77** distros on [repology.org](https://repology.org/project/navi). **41** are ✅ on the latest upstream release, **32** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `2.24.0` | ✅ latest |
+| Homebrew | `2.24.0` | ✅ latest |
+| Fedora rawhide | `2.20.1` | ⚠️ outdated |
+| Nix unstable | `2.24.0` | ✅ latest |
+| Alpine edge | `2.24.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for navi lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `navi` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -84,4 +96,4 @@ Install metadata for navi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T06:03:09Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T06:11:25Z._
