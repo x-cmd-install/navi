@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,815 · **Forks**: 583 · **Open issues**: 435 · **Contributors**: 100
+- **Stars**: 17,820 · **Forks**: 584 · **Open issues**: 435 · **Contributors**: 100
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 2 | 15 | 0 | 4 | 2 |
-| last60d | 2026-09-02 | 0 | 3 | 16 | 0 | 5 | 2 |
-| 90d | 2026-08-03 | 0 | 4 | 18 | 1 | 7 | 4 |
-| last180d | 2026-05-05 | 0 | 11 | 18 | 1 | 10 | 15 |
-| 360d | 2025-11-06 | 0 | 20 | 21 | 6 | 19 | 46 |
-| last720d | 2024-11-11 | 2 | 53 | 21 | 26 | 36 | 242 |
+| 30d | 2026-10-03 | 0 | 2 | 14 | 0 | 4 | 2 |
+| last60d | 2026-09-03 | 0 | 2 | 16 | 0 | 5 | 2 |
+| 90d | 2026-08-04 | 0 | 4 | 18 | 1 | 7 | 4 |
+| last180d | 2026-05-06 | 0 | 11 | 18 | 1 | 10 | 15 |
+| 360d | 2025-11-07 | 0 | 20 | 21 | 6 | 19 | 46 |
+| last720d | 2024-11-12 | 2 | 53 | 21 | 26 | 36 | 242 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **77** distros on [repology.org](https://repology.org/project/navi). **41** are ✅ on the latest upstream release, **32** are ⚠️ on an older version.
+Reported by **77** distros on [repology.org](https://repology.org/project/navi). **39** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -96,4 +96,4 @@ Install metadata for navi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:25:24Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:46:09Z._
