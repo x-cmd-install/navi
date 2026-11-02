@@ -1,10 +1,35 @@
-- repo: chocolatey
-  binname: navi
-  visiblename: navi
-  version: 2.23.0
+- repo: liguros_stable
+  srcname: app-misc/navi
+  visiblename: app-misc/navi
+  version: 2.24.0
   origversion: null
-  status: outdated
-  summary: An interactive cheatsheet tool for the command-line.
+  status: newest
+  summary: An interactive cheatsheet tool for the command-line
+  maintainers:
+    - beatussum@protonmail.com
+  licenses:
+    - Apache-2.0
+    - CC0-1.0
+    - MIT
+    - Unicode-3.0
+  categories:
+    - app-misc
+- repo: liguros_develop
+  srcname: app-misc/navi
+  visiblename: app-misc/navi
+  version: 2.24.0
+  origversion: null
+  status: newest
+  summary: An interactive cheatsheet tool for the command-line
+  maintainers:
+    - beatussum@protonmail.com
+  licenses:
+    - Apache-2.0
+    - CC0-1.0
+    - MIT
+    - Unicode-3.0
+  categories:
+    - app-misc
 - repo: alpine_3_18
   subrepo: community
   srcname: navi
@@ -55,15 +80,6 @@
   summary: Zsh plugin for navi (key bindings)
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: chromebrew
-  srcname: navi
-  visiblename: navi
-  version: 2.24.0
-  origversion: null
-  status: newest
-  summary: An interactive cheatsheet tool for the command-line
   licenses:
     - Apache-2.0
 - repo: alpine_3_19
@@ -196,13 +212,6 @@
     - jakub@jirutka.cz
   licenses:
     - Apache-2.0
-- repo: crates_io
-  srcname: navi
-  visiblename: navi
-  version: 2.24.0
-  origversion: null
-  status: newest
-  summary: An interactive cheatsheet tool for the command-line
 - repo: alpine_3_21
   subrepo: community
   srcname: navi
@@ -281,6 +290,20 @@
     - jakub@jirutka.cz
   licenses:
     - Apache-2.0
+- repo: solus
+  srcname: navi
+  binname: navi
+  visiblename: navi
+  version: 2.24.0
+  origversion: null
+  status: newest
+  summary: An interactive cheatsheet tool for the command-line
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - system.utils
 - repo: alpine_3_23
   subrepo: community
   srcname: navi
@@ -331,17 +354,6 @@
   summary: Zsh plugin for navi (key bindings)
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_11
-  srcname: navi
-  visiblename: navi
-  version: 2.24.0
-  origversion: null
-  status: newest
-  summary: Interactive cheatsheet tool for the command-line and application launchers
-  maintainers:
-    - serg@effectful.software
   licenses:
     - Apache-2.0
 - repo: alpine_3_24
@@ -502,26 +514,29 @@
     - fallback-mnt-aur@repology
   licenses:
     - Apache
-- repo: fedora_39
-  subrepo: updates
-  srcname: rust-navi
-  binnames:
-    - navi
-    - rust-navi-devel
-    - rust-navi+default-devel
-    - rust-navi+disable-command-execution-devel
-    - rust-navi+disable-repo-management-devel
-    - rust-navi-debuginfo
-    - rust-navi-debugsource
-  visiblename: rust-navi
-  version: 2.20.1
-  origversion: 2.20.1-8.fc39
+- repo: chocolatey
+  binname: navi
+  visiblename: navi
+  version: 2.23.0
+  origversion: null
   status: outdated
-  summary: Interactive cheatsheet tool for the command-line
+  summary: An interactive cheatsheet tool for the command-line.
+- repo: chromebrew
+  srcname: navi
+  visiblename: navi
+  version: 2.24.0
+  origversion: null
+  status: newest
+  summary: An interactive cheatsheet tool for the command-line
   licenses:
     - Apache-2.0
-  categories:
-    - Unspecified
+- repo: crates_io
+  srcname: navi
+  visiblename: navi
+  version: 2.24.0
+  origversion: null
+  status: newest
+  summary: An interactive cheatsheet tool for the command-line
 - repo: fedora_39
   subrepo: release
   srcname: rust-navi
@@ -542,8 +557,8 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: fedora_40
-  subrepo: release
+- repo: fedora_39
+  subrepo: updates
   srcname: rust-navi
   binnames:
     - navi
@@ -555,7 +570,7 @@
     - rust-navi-debugsource
   visiblename: rust-navi
   version: 2.20.1
-  origversion: 2.20.1-7.fc40
+  origversion: 2.20.1-8.fc39
   status: outdated
   summary: Interactive cheatsheet tool for the command-line
   licenses:
@@ -582,6 +597,40 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: rust-navi
+  binnames:
+    - navi
+    - rust-navi-devel
+    - rust-navi+default-devel
+    - rust-navi+disable-command-execution-devel
+    - rust-navi+disable-repo-management-devel
+    - rust-navi-debuginfo
+    - rust-navi-debugsource
+  visiblename: rust-navi
+  version: 2.20.1
+  origversion: 2.20.1-7.fc40
+  status: outdated
+  summary: Interactive cheatsheet tool for the command-line
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: solus
+  srcname: navi
+  binname: navi-dbginfo
+  visiblename: navi-dbginfo
+  version: 2.24.0
+  origversion: null
+  status: newest
+  summary: Debug symbols for navi
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - debug
 - repo: fedora_41
   subrepo: release
   srcname: rust-navi
@@ -769,38 +818,6 @@
     - Unicode-3.0
   categories:
     - app-misc
-- repo: liguros_stable
-  srcname: app-misc/navi
-  visiblename: app-misc/navi
-  version: 2.24.0
-  origversion: null
-  status: newest
-  summary: An interactive cheatsheet tool for the command-line
-  maintainers:
-    - beatussum@protonmail.com
-  licenses:
-    - Apache-2.0
-    - CC0-1.0
-    - MIT
-    - Unicode-3.0
-  categories:
-    - app-misc
-- repo: liguros_develop
-  srcname: app-misc/navi
-  visiblename: app-misc/navi
-  version: 2.24.0
-  origversion: null
-  status: newest
-  summary: An interactive cheatsheet tool for the command-line
-  maintainers:
-    - beatussum@protonmail.com
-  licenses:
-    - Apache-2.0
-    - CC0-1.0
-    - MIT
-    - Unicode-3.0
-  categories:
-    - app-misc
 - repo: liguros_develop
   srcname: app-misc/navi
   visiblename: app-misc/navi
@@ -837,23 +854,23 @@
   srcname: navi
   binname: navi
   visiblename: navi
-  version: 2.24.0
-  origversion: 2.24.0-1
-  status: newest
+  version: 2.22.1
+  origversion: 2.22.1-2
+  status: outdated
   summary: An interactive cheatsheet tool for the command-line
   licenses:
-    - Apache-2.0
+    - Apache
 - repo: manjaro_testing
   subrepo: extra
   srcname: navi
   binname: navi
   visiblename: navi
-  version: 2.24.0
-  origversion: 2.24.0-1
-  status: newest
+  version: 2.22.1
+  origversion: 2.22.1-2
+  status: outdated
   summary: An interactive cheatsheet tool for the command-line
   licenses:
-    - Apache-2.0
+    - Apache
 - repo: manjaro_unstable
   subrepo: extra
   srcname: navi
@@ -888,6 +905,17 @@
   licenses:
     - Apache-2.0
 - repo: nix_stable_25_05
+  srcname: navi
+  visiblename: navi
+  version: 2.24.0
+  origversion: null
+  status: newest
+  summary: Interactive cheatsheet tool for the command-line and application launchers
+  maintainers:
+    - serg@effectful.software
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
   srcname: navi
   visiblename: navi
   version: 2.24.0
@@ -986,34 +1014,6 @@
     - tonus1@free.fr
   categories:
     - office
-- repo: solus
-  srcname: navi
-  binname: navi
-  visiblename: navi
-  version: 2.24.0
-  origversion: null
-  status: newest
-  summary: An interactive cheatsheet tool for the command-line
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - system.utils
-- repo: solus
-  srcname: navi
-  binname: navi-dbginfo
-  visiblename: navi-dbginfo
-  version: 2.24.0
-  origversion: null
-  status: newest
-  summary: Debug symbols for navi
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - debug
 - repo: spack
   srcname: navi
   visiblename: navi
