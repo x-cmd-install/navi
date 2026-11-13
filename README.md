@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,853 · **Forks**: 584 · **Open issues**: 436 · **Contributors**: 100
+- **Stars**: 17,855 · **Forks**: 584 · **Open issues**: 436 · **Contributors**: 100
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 2 | 13 | 0 | 3 | 2 |
-| last60d | 2026-09-13 | 0 | 2 | 16 | 0 | 5 | 2 |
-| 90d | 2026-08-14 | 0 | 3 | 17 | 1 | 6 | 3 |
-| last180d | 2026-05-16 | 0 | 9 | 18 | 1 | 10 | 9 |
-| 360d | 2025-11-17 | 0 | 20 | 21 | 7 | 18 | 46 |
-| last720d | 2024-11-22 | 2 | 52 | 21 | 27 | 36 | 240 |
+| 30d | 2026-10-14 | 0 | 2 | 11 | 0 | 3 | 2 |
+| last60d | 2026-09-14 | 0 | 2 | 16 | 0 | 5 | 2 |
+| 90d | 2026-08-15 | 0 | 3 | 17 | 1 | 6 | 3 |
+| last180d | 2026-05-17 | 0 | 9 | 18 | 1 | 10 | 9 |
+| 360d | 2025-11-18 | 0 | 20 | 21 | 7 | 18 | 46 |
+| last720d | 2024-11-23 | 2 | 52 | 21 | 27 | 36 | 240 |
 
 ## Release assets
 
@@ -96,4 +96,4 @@ Install metadata for navi lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T09:10:08Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T08:37:17Z._
