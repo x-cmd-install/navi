@@ -1,3 +1,12 @@
+- repo: chromebrew
+  srcname: navi
+  visiblename: navi
+  version: 2.24.0
+  origversion: null
+  status: newest
+  summary: An interactive cheatsheet tool for the command-line
+  licenses:
+    - Apache-2.0
 - repo: crates_io
   srcname: navi
   visiblename: navi
@@ -5,6 +14,19 @@
   origversion: null
   status: newest
   summary: An interactive cheatsheet tool for the command-line
+- repo: alpine_3_22
+  subrepo: community
+  srcname: navi
+  binname: navi
+  visiblename: navi
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: newest
+  summary: An interactive cheatsheet tool for the command-line
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_18
   subrepo: community
   srcname: navi
@@ -40,6 +62,266 @@
   origversion: 2.22.1-r0
   status: outdated
   summary: Fish plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: navi
+  binname: navi-zsh-plugin
+  visiblename: navi-zsh-plugin
+  version: 2.22.1
+  origversion: 2.22.1-r0
+  status: outdated
+  summary: Zsh plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: navi
+  binname: navi
+  visiblename: navi
+  version: 2.22.1
+  origversion: 2.22.1-r2
+  status: outdated
+  summary: An interactive cheatsheet tool for the command-line
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: navi
+  binname: navi-bash-plugin
+  visiblename: navi-bash-plugin
+  version: 2.22.1
+  origversion: 2.22.1-r2
+  status: outdated
+  summary: Bash plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: navi
+  binname: navi-fish-plugin
+  visiblename: navi-fish-plugin
+  version: 2.22.1
+  origversion: 2.22.1-r2
+  status: outdated
+  summary: Fish plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: navi
+  binname: navi-zsh-plugin
+  visiblename: navi-zsh-plugin
+  version: 2.22.1
+  origversion: 2.22.1-r2
+  status: outdated
+  summary: Zsh plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: navi
+  binname: navi
+  visiblename: navi
+  version: 2.23.0
+  origversion: 2.23.0-r0
+  status: outdated
+  summary: An interactive cheatsheet tool for the command-line
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: navi
+  binname: navi-bash-plugin
+  visiblename: navi-bash-plugin
+  version: 2.23.0
+  origversion: 2.23.0-r0
+  status: outdated
+  summary: Bash plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: navi
+  binname: navi-fish-plugin
+  visiblename: navi-fish-plugin
+  version: 2.23.0
+  origversion: 2.23.0-r0
+  status: outdated
+  summary: Fish plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: navi
+  binname: navi-zsh-plugin
+  visiblename: navi-zsh-plugin
+  version: 2.23.0
+  origversion: 2.23.0-r0
+  status: outdated
+  summary: Zsh plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: navi
+  binname: navi
+  visiblename: navi
+  version: 2.23.0
+  origversion: 2.23.0-r0
+  status: outdated
+  summary: An interactive cheatsheet tool for the command-line
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: navi
+  binname: navi-bash-plugin
+  visiblename: navi-bash-plugin
+  version: 2.23.0
+  origversion: 2.23.0-r0
+  status: outdated
+  summary: Bash plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: navi
+  binname: navi-fish-plugin
+  visiblename: navi-fish-plugin
+  version: 2.23.0
+  origversion: 2.23.0-r0
+  status: outdated
+  summary: Fish plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: navi
+  binname: navi-zsh-plugin
+  visiblename: navi-zsh-plugin
+  version: 2.23.0
+  origversion: 2.23.0-r0
+  status: outdated
+  summary: Zsh plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: navi
+  binname: navi-bash-plugin
+  visiblename: navi-bash-plugin
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: newest
+  summary: Bash plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: navi
+  binname: navi-fish-plugin
+  visiblename: navi-fish-plugin
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: newest
+  summary: Fish plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: navi
+  binname: navi-zsh-plugin
+  visiblename: navi-zsh-plugin
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: newest
+  summary: Zsh plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: navi
+  binname: navi
+  visiblename: navi
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: newest
+  summary: An interactive cheatsheet tool for the command-line
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: navi
+  binname: navi-bash-plugin
+  visiblename: navi-bash-plugin
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: newest
+  summary: Bash plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: navi
+  binname: navi-fish-plugin
+  visiblename: navi-fish-plugin
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: newest
+  summary: Fish plugin for navi (key bindings)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: navi
+  binname: navi-zsh-plugin
+  visiblename: navi-zsh-plugin
+  version: 2.24.0
+  origversion: 2.24.0-r0
+  status: newest
+  summary: Zsh plugin for navi (key bindings)
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -51,288 +333,6 @@
   origversion: null
   status: outdated
   summary: An interactive cheatsheet tool for the command-line.
-- repo: alpine_3_18
-  subrepo: community
-  srcname: navi
-  binname: navi-zsh-plugin
-  visiblename: navi-zsh-plugin
-  version: 2.22.1
-  origversion: 2.22.1-r0
-  status: outdated
-  summary: Zsh plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: navi
-  binname: navi
-  visiblename: navi
-  version: 2.22.1
-  origversion: 2.22.1-r2
-  status: outdated
-  summary: An interactive cheatsheet tool for the command-line
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: navi
-  binname: navi-bash-plugin
-  visiblename: navi-bash-plugin
-  version: 2.22.1
-  origversion: 2.22.1-r2
-  status: outdated
-  summary: Bash plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: navi
-  binname: navi-fish-plugin
-  visiblename: navi-fish-plugin
-  version: 2.22.1
-  origversion: 2.22.1-r2
-  status: outdated
-  summary: Fish plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: navi
-  binname: navi-zsh-plugin
-  visiblename: navi-zsh-plugin
-  version: 2.22.1
-  origversion: 2.22.1-r2
-  status: outdated
-  summary: Zsh plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: navi
-  binname: navi
-  visiblename: navi
-  version: 2.23.0
-  origversion: 2.23.0-r0
-  status: outdated
-  summary: An interactive cheatsheet tool for the command-line
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: navi
-  binname: navi-bash-plugin
-  visiblename: navi-bash-plugin
-  version: 2.23.0
-  origversion: 2.23.0-r0
-  status: outdated
-  summary: Bash plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: navi
-  binname: navi-fish-plugin
-  visiblename: navi-fish-plugin
-  version: 2.23.0
-  origversion: 2.23.0-r0
-  status: outdated
-  summary: Fish plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: navi
-  binname: navi-zsh-plugin
-  visiblename: navi-zsh-plugin
-  version: 2.23.0
-  origversion: 2.23.0-r0
-  status: outdated
-  summary: Zsh plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: navi
-  binname: navi
-  visiblename: navi
-  version: 2.23.0
-  origversion: 2.23.0-r0
-  status: outdated
-  summary: An interactive cheatsheet tool for the command-line
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: navi
-  binname: navi-bash-plugin
-  visiblename: navi-bash-plugin
-  version: 2.23.0
-  origversion: 2.23.0-r0
-  status: outdated
-  summary: Bash plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: navi
-  binname: navi-fish-plugin
-  visiblename: navi-fish-plugin
-  version: 2.23.0
-  origversion: 2.23.0-r0
-  status: outdated
-  summary: Fish plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: navi
-  binname: navi-zsh-plugin
-  visiblename: navi-zsh-plugin
-  version: 2.23.0
-  origversion: 2.23.0-r0
-  status: outdated
-  summary: Zsh plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: navi
-  binname: navi
-  visiblename: navi
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: newest
-  summary: An interactive cheatsheet tool for the command-line
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: navi
-  binname: navi-bash-plugin
-  visiblename: navi-bash-plugin
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: newest
-  summary: Bash plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: navi
-  binname: navi-fish-plugin
-  visiblename: navi-fish-plugin
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: newest
-  summary: Fish plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: navi
-  binname: navi-zsh-plugin
-  visiblename: navi-zsh-plugin
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: newest
-  summary: Zsh plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: navi
-  binname: navi
-  visiblename: navi
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: newest
-  summary: An interactive cheatsheet tool for the command-line
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: navi
-  binname: navi-bash-plugin
-  visiblename: navi-bash-plugin
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: newest
-  summary: Bash plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: navi
-  binname: navi-fish-plugin
-  visiblename: navi-fish-plugin
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: newest
-  summary: Fish plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: navi
-  binname: navi-zsh-plugin
-  visiblename: navi-zsh-plugin
-  version: 2.24.0
-  origversion: 2.24.0-r0
-  status: newest
-  summary: Zsh plugin for navi (key bindings)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: chromebrew
-  srcname: navi
-  visiblename: navi
-  version: 2.24.0
-  origversion: null
-  status: newest
-  summary: An interactive cheatsheet tool for the command-line
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_24
   subrepo: community
   srcname: navi
@@ -492,26 +492,6 @@
   licenses:
     - Apache
 - repo: fedora_39
-  subrepo: release
-  srcname: rust-navi
-  binnames:
-    - navi
-    - rust-navi-devel
-    - rust-navi+default-devel
-    - rust-navi+disable-command-execution-devel
-    - rust-navi+disable-repo-management-devel
-    - rust-navi-debuginfo
-    - rust-navi-debugsource
-  visiblename: rust-navi
-  version: 2.20.1
-  origversion: 2.20.1-6.fc39
-  status: outdated
-  summary: Interactive cheatsheet tool for the command-line
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: updates
   srcname: rust-navi
   binnames:
@@ -525,6 +505,26 @@
   visiblename: rust-navi
   version: 2.20.1
   origversion: 2.20.1-8.fc39
+  status: outdated
+  summary: Interactive cheatsheet tool for the command-line
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: rust-navi
+  binnames:
+    - navi
+    - rust-navi-devel
+    - rust-navi+default-devel
+    - rust-navi+disable-command-execution-devel
+    - rust-navi+disable-repo-management-devel
+    - rust-navi-debuginfo
+    - rust-navi-debugsource
+  visiblename: rust-navi
+  version: 2.20.1
+  origversion: 2.20.1-6.fc39
   status: outdated
   summary: Interactive cheatsheet tool for the command-line
   licenses:
@@ -671,17 +671,37 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: nix_stable_25_11
+- repo: nix_stable_24_11
   srcname: navi
   visiblename: navi
-  version: 2.24.0
+  version: 2.23.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Interactive cheatsheet tool for the command-line and application launchers
   maintainers:
     - serg@effectful.software
   licenses:
     - Apache-2.0
+- repo: fedora_45
+  subrepo: release
+  srcname: rust-navi
+  binnames:
+    - navi
+    - rust-navi-devel
+    - rust-navi+default-devel
+    - rust-navi+disable-command-execution-devel
+    - rust-navi+disable-repo-management-devel
+    - rust-navi-debuginfo
+    - rust-navi-debugsource
+  visiblename: rust-navi
+  version: 2.20.1
+  origversion: 2.20.1-14.fc45
+  status: outdated
+  summary: Interactive cheatsheet tool for the command-line
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: rust-navi
@@ -876,18 +896,18 @@
     - serg@effectful.software
   licenses:
     - Apache-2.0
-- repo: nix_stable_24_11
+- repo: nix_stable_25_05
   srcname: navi
   visiblename: navi
-  version: 2.23.0
+  version: 2.24.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Interactive cheatsheet tool for the command-line and application launchers
   maintainers:
     - serg@effectful.software
   licenses:
     - Apache-2.0
-- repo: nix_stable_25_05
+- repo: nix_stable_25_11
   srcname: navi
   visiblename: navi
   version: 2.24.0
